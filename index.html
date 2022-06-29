@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <title>TODO</title>
+</head>
+
+<body>
+  <div id="todoPage" class="">
+    <h1>TODOリスト</h1>
+    <div class="outer task-area">
+      <label class="title">タスク</label>
+      <div class="row">
+        <input type="text" id="task">
+        <select id="taskColor" class="margin-both-5">
+          <option value="black" selected>black</option>
+          <option value="blue">blue</option>
+          <option value="red">red</option>
+          <option value="green">green</option>
+        </select>
+      </div>
+      <label class="title">添付ファイル</label>
+      <div class="row">
+        <input type="file">
+      </div>
+      <div class="row end">
+        <button id="taskAddBtn" class="option-btn">追加</button>
+      </div>
+    </div>
+    <hr>
+    <div id="todoListArea">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

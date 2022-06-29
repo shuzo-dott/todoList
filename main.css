@@ -1,0 +1,62 @@
+.title {
+    font-size: small;
+    padding-left: 3px;
+    color: blue;
+}
+
+.card {
+    width: 300px;
+    height: 100px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 50% 50% 50% 0;
+    padding:5px;
+}
+
+.outer {
+    width: 500px;
+}
+
+.card-outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.margin-both-5 {
+    margin: 0 5px 0;
+}
+
+.end {
+    justify-content: end;
+}
+
+.card-outer > li {
+    margin: 5px 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-outer > li > button {
+    margin: 0 auto 10px;;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    font: bold;
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+}
